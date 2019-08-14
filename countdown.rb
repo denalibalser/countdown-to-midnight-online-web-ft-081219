@@ -1,4 +1,9 @@
 #write your code here
 
-def countdown
+def countdown(n)
+  n = 10
+  while n > 0
+    puts "#{n} SECOND(S)!"
+  end
+  puts "HAPPY NEW YEAR!"
 end
